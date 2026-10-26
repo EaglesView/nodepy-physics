@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nodepy-physics"
+version = "0.1.0"
+description = "Rigid-body physics for the NodePy engine, powered by pymunk"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "NodePy>=1.2,<2",
+    "pymunk>=7,<8",
+]
+
+[tool.setuptools]
+packages = ["nodepy_physics"]
+
+[project.urls]
+Homepage = "https://github.com/OneTrain2005/nodepy-physics"
