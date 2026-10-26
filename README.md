@@ -2,6 +2,8 @@
 
 Rigid-body 2D physics for the [NodePy](https://github.com/OneTrain2005/NodePy) engine, powered by [pymunk](https://www.pymunk.org/) (Chipmunk2D).
 
+**NOTE**: Nodepy is still a WIP. This is for an early development version of NodePy. [See this PR](https://github.com/OneTrain2005/NodePy/pull/4) for more info.
+
 Gravity, stacking, friction, bounce, rotation, joints and collision signals, exposed as Godot-style nodes you drop into your scene tree. No pymunk knowledge required, but the underlying objects are one property away when you need them.
 
 > **Version:** 0.1.0
